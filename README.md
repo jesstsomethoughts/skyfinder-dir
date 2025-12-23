@@ -91,7 +91,7 @@ Personal compute power was definitely the limiting factor in this exploration. U
 
 As a result of compute power limitations, I 1. Did not use the entire dataset (choosing 4 CamIds instead of the total of 53), 2. Greatly reduced the # of epochs I ran per each model, and 3. Used a lower batch size of 8 instead of the default 32. Adding all factors could've definitely lowered the error and bias on all models and make the error estimates more stable, especially as I would likely have more example images in few-shot regions.
 
-Despite this, it still took ~1 hour each to run a model (albeit I have run a few overnight). Due to time constraints, I did not explore other metrics to run my model against, but did note down a few variables that had distributions worth exploring in the future.
+Despite this, it still took ~1 hour each to run a model (which to some, may not be long at all). Due to time constraints, I did not explore other metrics to run my model against, but did note down a few variables that had distributions worth exploring in the future.
 
 
 #### Future Directions

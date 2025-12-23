@@ -95,7 +95,7 @@ Despite this, it still took ~1 hour each to run a model (which to some, may not 
 
 
 #### Future Directions
-Delving into the nitty gritty of both LDS and FDS, and also applying what I had learned, has been an incredible learning experience. I would definitely like to continue exploring how it works given more compute power (and maybe financial resources).
+Delving into the nitty gritty of both LDS and FDS, and also applying what I had learned, has been an incredible learning experience. I would definitely like to continue exploring how it works given more compute power.
 
 I would like to explore the following:
 - Running my models on more epochs (>50). In the past, albeit on much smaller models, I've run my models on epochs of 100+

@@ -15,6 +15,8 @@ From there, I identified the `agedb-dir` code as a solid template for my explora
 
 As LDS and FDS work more so on continuous labeling, I explored the metadata of the SkyFinder dataset to determine what metrics I could predict from a model with LDS and/or FDS applied. After playing around with several of the metrics in the .CSV file, I settled on 'clouds' – decimal values between 0 and 1 representing the coverage of clouds in an image. I multiplied all values by 100 to get percent labels of cloud coverage for easier/more intuitive calculations. After splitting up the data into "train", "test", and "validation" sets, the distribution seemed decent enough to attempt to model cloud coverage on my dataset. There are clearly defined "many-shot", "medium-shot", and "low-shot" regions, while the test and validation sets could still be relatively uniform.  
 
+![Distributions of split dataset](image.png)
+
 #### What I Ran
 1. I first pre-processed the data: 
 
